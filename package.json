@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-device",
+  "version": "0.0.1",
+  "description": "Cordova Device Plugin",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "cordova-p2p",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests"
+  },
+  "author": "Felix HH Yeung",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
